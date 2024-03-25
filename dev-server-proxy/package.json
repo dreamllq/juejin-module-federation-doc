@@ -1,0 +1,22 @@
+{
+  "name": "dev-server-proxy",
+  "version": "1.0.0",
+  "description": "",
+  "private": true,
+  "scripts": {
+    "dev": "node proxy.js"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "bonjour": "^3.5.0",
+    "cli-table3": "^0.6.4",
+    "compression": "^1.7.4",
+    "dotenv": "^16.4.5",
+    "dotenv-expand": "^11.0.6",
+    "express": "^4.19.1",
+    "http-proxy-middleware": "^2.0.6",
+    "mime": "3.0.0",
+    "minimist": "^1.2.8"
+  }
+}
