@@ -1,9 +1,30 @@
-<mxfile host="app.diagrams.net" modified="2024-03-25T03:26:30.374Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" version="21.8.2" etag="TG0eIIVqOLSVmssumtWB" type="github">
-  <diagram name="第 1 页" id="4WecJH8wC-HE1MPkn5S4">
-    <mxGraphModel>
+<mxfile host="app.diagrams.net" modified="2024-03-25T07:48:34.071Z" agent="Mozilla/5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/122.0.0.0 Safari/537.36" etag="R3uyfnq7ZnI3bYECiAxu" version="21.8.2" type="github">
+  <diagram name="同步远程代码" id="4WecJH8wC-HE1MPkn5S4">
+    <mxGraphModel dx="1853" dy="1819" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
+        <mxCell id="p-NI7OCHglL7MYVLrFcm-1" value="文件服务器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="240" y="-80" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-NI7OCHglL7MYVLrFcm-2" value="本地代理" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="430" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-NI7OCHglL7MYVLrFcm-3" value="本地文件夹" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="340" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-NI7OCHglL7MYVLrFcm-4" value="git仓库" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="420" y="160" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-NI7OCHglL7MYVLrFcm-5" value="jenkins" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="330" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-NI7OCHglL7MYVLrFcm-6" value="Actor" style="shape=umlActor;verticalLabelPosition=bottom;verticalAlign=top;html=1;outlineConnect=0;" vertex="1" parent="1">
+          <mxGeometry x="-10" y="340" width="30" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="p-NI7OCHglL7MYVLrFcm-7" value="浏览器" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="120" y="500" width="120" height="60" as="geometry" />
+        </mxCell>
       </root>
     </mxGraphModel>
   </diagram>
